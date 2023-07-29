@@ -162,7 +162,10 @@ const HomePage = () => {
       </div>
       <div className="px-20 py-10 bg-black text-white">
         <div className="flex justify-between items-center">
-          <h1 className="text-2xl font-bold">LATEST ARTICLES</h1>
+          <h1 className="text-2xl font-bold">
+            LATEST ARTICLES
+            <div className="w-20 h-2 bg-orange-500 mt-6"></div>
+          </h1>
           <div className="border-4 text-2xl font-bold px-8 py-2">
             - All Topics -
           </div>
@@ -334,14 +337,14 @@ const HomePage = () => {
           </article>
           <div className="flex justify-between mt-6">
             <div className="article__topics">
-              <span className="text-red-700 my-4 underline">View All</span>{' '}
+              <span className="text-gray-700 my-4 underline">View All</span>{' '}
             </div>
             <div className="flex w-1/5 justify-between text-xl font-bold">
               <span className="text-gray-200 my-4">1</span>{' '}
-              <span className="text-red-700 my-4">2</span>{' '}
-              <span className="text-red-700 my-4">3</span>{' '}
-              <span className="text-red-700 my-4">...</span>{' '}
-              <span className="text-red-700 my-4">242</span>{' '}
+              <span className="text-gray-700 my-4">2</span>{' '}
+              <span className="text-gray-700 my-4">3</span>{' '}
+              <span className="text-gray-700 my-4">...</span>{' '}
+              <span className="text-gray-700 my-4">242</span>{' '}
             </div>
           </div>
         </div>

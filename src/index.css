@@ -27,7 +27,7 @@ code {
 }
 
 .article__topics a {
-  color: #c5202f;
+  color: #727171;
   text-transform: uppercase;
 }
 
@@ -52,7 +52,7 @@ code {
   margin-right: 10px;
   font-size: 20px;
   font-weight: 600;
-  color: blue;
+  color: rgb(244, 237, 237);
 }
 
 .article__topics {
