@@ -2,8 +2,8 @@ import React from 'react';
 
 const AdminPage = () => {
   return (
-    <div>
-      <div className="text-3xl font-bold text-center my-6">All News</div>
+    <div className="">
+      <div className="text-3xl font-bold text-center py-6">All News</div>
       <div className="flex justify-end mx-36 cursor-pointer">
         <div className="rounded-lg bg-blue-600 text-white font-bold px-4 py-2">
           + Create
@@ -18,11 +18,13 @@ const AdminPage = () => {
               </div>
               <div className="article__title" itemprop="name">
                 <a
-                  href="https://www.38north.org/reports/2023/07/risk-reduction-and-crisis-management-on-the-korean-peninsula/"
-                  title="Article: Risk Reduction and Crisis Management on the Korean Peninsula"
-                  className="article__link"
+                  href="https://www.38north.org/2010/05/the-new-york-times-and-the-human-torpedo-a-close-second-place/"
+                  title="Article: The New York Times and the Human Torpedo – A Close Second Place"
+                  class="article__link"
+                  itemprop="url"
                 >
-                  Risk Reduction and Crisis Management on the Korean Peninsula{' '}
+                  The New York Times and the Human Torpedo – A Close Second
+                  Place{' '}
                 </a>
               </div>
               <div className="ml-10 flex">
@@ -37,31 +39,23 @@ const AdminPage = () => {
             <div className="flex">
               <div className="article__authors" itemprop="author">
                 <a
-                  href="https://www.38north.org/author/maj-gen-ret-mats-engman/"
-                  title="Posts by Maj. Gen. (Ret.) Mats Engman"
-                  className="author url fn"
+                  href="https://www.38north.org/author/38-north/"
+                  title="Posts by 38 North"
+                  class="author url fn ml-3"
                 >
-                  Maj. Gen. (Ret.) Mats Engman
-                </a>{' '}
-                and{' '}
-                <a
-                  href="https://www.38north.org/author/frida-lampinen/"
-                  title="Posts by Frida Lampinen"
-                  className="author url fn"
-                >
-                  Frida Lampinen
-                </a>{' '}
+                  38 North
+                </a>
               </div>
 
               <div className="article__topics">
                 <span itemprop="about">
                   <a
-                    href="https://www.38north.org/topics/special-reports/"
+                    href="https://www.38north.org/topics/james-church/"
                     rel="category tag"
                   >
-                    Special Reports
+                    James Church
                   </a>
-                </span>{' '}
+                </span>
               </div>
             </div>
           </article>
@@ -72,18 +66,20 @@ const AdminPage = () => {
           >
             <div className="flex">
               <div className="article__date">
-                <time datetime="2023-07-21">Jul 21 </time>
+                <time datetime="2023-07-21">Jan 25 </time>
               </div>
               <div className="article__title" itemprop="name">
                 <a
-                  href="https://www.38north.org/2023/07/the-unintended-consequences-of-natos-drift-toward-asia/"
-                  title="Article: The Unintended Consequences of NATO’s Drift Toward Asia"
-                  className="article__link"
+                  href="https://www.38north.org/2010/07/facing-reality-will-north-korea-adopt-a-more-rational-economic-policy/"
+                  title="Article: Facing Reality: Will North Korea Adopt a More Rational Economic Policy?"
+                  class="article__link"
+                  itemprop="url"
                 >
-                  The Unintended Consequences of NATO’s Drift Toward Asia{' '}
+                  Facing Reality: Will North Korea Adopt a More Rational
+                  Economic Policy?{' '}
                 </a>
               </div>
-              <div className="ml-24 flex">
+              <div className="ml-20 flex">
                 <div className="rounded-lg text-white font-medium bg-green-400 p-1 w-20 justify-center flex items-center">
                   Edit
                 </div>
@@ -96,10 +92,10 @@ const AdminPage = () => {
               <div className="article__authors" itemprop="author">
                 <a
                   href="https://www.38north.org/author/daniel-r-depetris/"
-                  title="Posts by Daniel R. DePetris"
+                  title="Posts by 38 North"
                   className="author url fn"
                 >
-                  Daniel R. DePetris
+                  38 North
                 </a>{' '}
               </div>
 
@@ -131,18 +127,19 @@ const AdminPage = () => {
           >
             <div className="flex">
               <div className="article__date">
-                <time datetime="2023-07-14">Jul 14 </time>
+                <time datetime="2023-07-14">Jan 25 </time>
               </div>
               <div className="article__title" itemprop="name">
                 <a
-                  href="https://www.38north.org/2023/07/sohae-satellite-launching-station-modernization-status-2/"
-                  title="Article: Sohae Satellite Launching Station: Modernization Status"
-                  className="article__link"
+                  href="https://www.38north.org/2010/05/sanctions-an-important-component-of-u-s-north-korea-policy/"
+                  title="Article: Sanctions: An Important Component of U.S. North Korea Policy"
+                  class="article__link"
+                  itemprop="url"
                 >
-                  Sohae Satellite Launching Station: Modernization Status{' '}
+                  Sanctions: An Important Component of U.S. North Korea Policy{' '}
                 </a>
               </div>
-              <div className="ml-36 flex">
+              <div className="ml-[216px] flex">
                 <div className="rounded-lg text-white font-medium bg-green-400 p-1 w-20 justify-center flex items-center">
                   Edit
                 </div>
@@ -154,48 +151,24 @@ const AdminPage = () => {
             <div className="flex">
               <div className="article__authors" itemprop="author">
                 <a
-                  href="https://www.38north.org/author/jack-liu/"
-                  title="Posts by Jack Liu"
-                  className="author url fn"
+                  href="https://www.38north.org/author/leon-v-sigal/"
+                  title="Posts by Leon V. Sigal"
+                  class="author url fn"
+                  rel="author"
                 >
-                  Jack Liu
+                  Leon V. Sigal
                 </a>
-                ,{' '}
-                <a
-                  href="https://www.38north.org/author/peter-makowsky/"
-                  title="Posts by Peter Makowsky"
-                  className="author url fn"
-                >
-                  Peter Makowsky
-                </a>{' '}
-                and{' '}
-                <a
-                  href="https://www.38north.org/author/olli-heinonen/"
-                  title="Posts by Olli Heinonen"
-                  className="author url fn"
-                >
-                  Olli Heinonen
-                </a>{' '}
               </div>
 
               <div className="article__topics">
                 <span itemprop="about">
                   <a
-                    href="https://www.38north.org/topics/satellite-analysis/"
+                    href="https://www.38north.org/topics/foreign-affairs/"
                     rel="category tag"
                   >
-                    Satellite Imagery
+                    Foreign Affairs
                   </a>
                 </span>
-                ,{' '}
-                <span itemprop="about">
-                  <a
-                    href="https://www.38north.org/topics/wmd/"
-                    rel="category tag"
-                  >
-                    WMD
-                  </a>
-                </span>{' '}
               </div>
             </div>
           </article>
