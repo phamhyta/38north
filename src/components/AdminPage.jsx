@@ -331,7 +331,7 @@ const AdminPage = () => {
           <div class="relative bg-gray-100 rounded-lg shadow mt-16 ml-[500px]">
             <div class="flex items-start justify-between p-4 border-b rounded-t">
               <h3 class="text-xl font-semibold text-gray-900 text-center w-full">
-                Create a new article
+                Edit article
               </h3>
             </div>
             <div class="p-6 space-y-6">
@@ -438,7 +438,7 @@ const AdminPage = () => {
           <div class="relative bg-gray-100 rounded-lg shadow mt-16 ml-[500px]">
             <div class="flex items-start justify-between p-4 border-b rounded-t">
               <h3 class="text-xl font-semibold text-gray-900 text-center w-full">
-                Create a new article
+                Delete article
               </h3>
             </div>
             <div class="p-6 space-y-6">
