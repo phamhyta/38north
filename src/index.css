@@ -15,3 +15,47 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.ajax-target {
+  position: relative;
+}
+
+.article--compact {
+  border-bottom: 1px solid #555;
+  padding: 40px 0 40px 0px;
+}
+
+.article__topics a {
+  color: #c5202f;
+  text-transform: uppercase;
+}
+
+.article {
+  position: relative;
+}
+
+.article__date {
+  font-size: 26px;
+  font-weight: 700;
+  margin-right: 20px;
+}
+
+.article__title {
+  font-size: 30px;
+  font-weight: 700;
+  margin-left: 20px;
+}
+
+.article__authors {
+  margin-left: 115px;
+  margin-right: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  color: blue;
+}
+
+.article__topics {
+  font-size: 20px;
+  font-weight: 600;
+}
