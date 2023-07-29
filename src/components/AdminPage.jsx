@@ -1,4 +1,6 @@
 import React from 'react';
+import NoteViewer from './NoteViewer';
+import NoteViewerNew from './NoteViewerNew';
 
 const AdminPage = () => {
   function showModal() {
@@ -233,7 +235,9 @@ const AdminPage = () => {
                 Create a new article
               </h3>
             </div>
-            <div class="p-6 space-y-6">
+            <NoteViewerNew />
+
+            {/* <div class="p-6 space-y-6">
               <div>
                 <div>
                   <label htmlFor="title" className="my-2">
@@ -299,7 +303,7 @@ const AdminPage = () => {
                   className="py-3 px-4 mt-2 rounded-md outline-none w-[750px]"
                 />
               </div>
-            </div>
+            </div> */}
             <div class="flex items-center p-6 space-x-2 border-t border-gray-200 rounded-b">
               <button
                 data-modal-hide="defaultModal"
@@ -334,7 +338,8 @@ const AdminPage = () => {
                 Edit article
               </h3>
             </div>
-            <div class="p-6 space-y-6">
+            <NoteViewer />
+            {/* <div class="p-6 space-y-6">
               <div>
                 <div>
                   <label htmlFor="title" className="my-2">
@@ -406,7 +411,7 @@ const AdminPage = () => {
                   className="py-3 px-4 mt-2 rounded-md outline-none w-[750px]"
                 />
               </div>
-            </div>
+            </div> */}
             <div class="flex items-center p-6 space-x-2 border-t border-gray-200 rounded-b">
               <button
                 data-modal-hide="defaultModal"
