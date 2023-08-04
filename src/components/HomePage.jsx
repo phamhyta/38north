@@ -1,4 +1,7 @@
 import React from 'react';
+import img1 from '../images/img1.png';
+import img2 from '../images/img2.png';
+import img3 from '../images/img3.png';
 
 const HomePage = () => {
   return (
@@ -171,143 +174,256 @@ const HomePage = () => {
           </div>
         </div>
         <div className="ajax-target">
-          <article className="article article--compact ajax-item">
-            <div className="flex">
-              <div className="article__date">
-                <time datetime="2010-03-18">Mar 18</time>
+          <div className="flex">
+            <article className="article article--compact ajax-item w-4/5">
+              <div className="flex">
+                <div className="article__date">
+                  <time datetime="2010-03-18">May 14</time>
+                </div>
+                <div className="article__title" itemprop="name">
+                  <a
+                    href="https://www.38north.org/2023/05/sohae-satellite-launching-station-launch-pad-construction-resumes/"
+                    title="Article: Sohae Satellite Launching Station: Launch Pad Construction Resumes"
+                    class="article__link"
+                    itemprop="url"
+                  >
+                    Sohae Satellite Launching Station: Launch Pad Construction
+                    Resumes{' '}
+                  </a>
+                </div>
               </div>
-              <div className="article__title" itemprop="name">
-                <a
-                  href="https://www.38north.org/2010/05/the-new-york-times-and-the-human-torpedo-a-close-second-place/"
-                  title="Article: The New York Times and the Human Torpedo – A Close Second Place"
-                  class="article__link"
-                  itemprop="url"
-                >
-                  The New York Times and the Human Torpedo – A Close Second
-                  Place{' '}
-                </a>
-              </div>
-            </div>
-            <div className="flex">
-              <div className="article__authors" itemprop="author">
-                <a
-                  href="https://www.38north.org/author/38-north/"
-                  title="Posts by 38 North"
-                  class="author url fn ml-3"
-                >
-                  38 North
-                </a>
-              </div>
+              <div className="flex">
+                <div class="article__authors" itemprop="author">
+                  <a
+                    href="https://www.38north.org/author/jack-liu/"
+                    title="Posts by Jack Liu"
+                    class="author url fn"
+                    rel="author"
+                  >
+                    Jack Liu
+                  </a>
+                  ,{' '}
+                  <a
+                    href="https://www.38north.org/author/peter-makowsky/"
+                    title="Posts by Peter Makowsky"
+                    class="author url fn"
+                    rel="author"
+                  >
+                    Peter Makowsky
+                  </a>{' '}
+                  and{' '}
+                  <a
+                    href="https://www.38north.org/author/olli-heinonen/"
+                    title="Posts by Olli Heinonen"
+                    class="author url fn"
+                    rel="author"
+                  >
+                    Olli Heinonen
+                  </a>{' '}
+                </div>
 
-              <div className="article__topics">
-                <span itemprop="about">
+                <div class="article__topics">
+                  <span itemprop="about">
+                    <a
+                      href="https://www.38north.org/topics/satellite-analysis/"
+                      rel="category tag"
+                    >
+                      Satellite Imagery
+                    </a>
+                  </span>
+                  ,{' '}
+                  <span itemprop="about">
+                    <a
+                      href="https://www.38north.org/topics/wmd/"
+                      rel="category tag"
+                    >
+                      WMD
+                    </a>
+                  </span>{' '}
+                </div>
+              </div>
+              <div className="mr-[100px] ml-[130px]">
+                Recent commercial satellite imagery of North Korea’s Sohae
+                Satellite Launching Station indicates that after nearly a
+                half-year hiatus, activity at the launch pad area has resumed.
+                Within the past two weeks, materials on the launch pad have been
+                removed and a new, taller tower crane has been assembled next to
+                the gantry tower. These efforts are likely tied to Kim Jong Un’s
+                modernization goals to boost space launch capabilities as set
+                forth in March 2022, and in support of a new generation of
+                larger satellite launch vehicles (SLVs).
+              </div>
+            </article>
+            <div className="flex justify-center items-center mr-24 img-item">
+              <img src={img1} className="w-72" alt="" />
+            </div>
+          </div>
+          <div className="flex">
+            <article
+              className="article article--compact ajax-item w-4/5"
+              itemscope=""
+              itemtype="http://schema.org/Article"
+            >
+              <div className="flex">
+                <div className="article__date">
+                  <time datetime="2023-07-21">Apr 28 </time>
+                </div>
+                <div className="article__title" itemprop="name">
                   <a
-                    href="https://www.38north.org/topics/james-church/"
-                    rel="category tag"
+                    href="https://www.38north.org/2023/04/yongbyon-nuclear-scientific-research-center-expansion-work-continues/"
+                    title="Article: Yongbyon Nuclear Scientific Research Center: Expansion Work Continues"
+                    class="article__link"
+                    itemprop="url"
                   >
-                    James Church
+                    Yongbyon Nuclear Scientific Research Center: Expansion Work
+                    Continues{' '}
                   </a>
-                </span>
+                </div>
               </div>
-            </div>
-          </article>
-          <article
-            className="article article--compact ajax-item"
-            itemscope=""
-            itemtype="http://schema.org/Article"
-          >
-            <div className="flex">
-              <div className="article__date">
-                <time datetime="2023-07-21">Jan 25 </time>
-              </div>
-              <div className="article__title" itemprop="name">
-                <a
-                  href="https://www.38north.org/2010/07/facing-reality-will-north-korea-adopt-a-more-rational-economic-policy/"
-                  title="Article: Facing Reality: Will North Korea Adopt a More Rational Economic Policy?"
-                  class="article__link"
-                  itemprop="url"
-                >
-                  Facing Reality: Will North Korea Adopt a More Rational
-                  Economic Policy?{' '}
-                </a>
-              </div>
-            </div>
-            <div className="flex">
-              <div className="article__authors" itemprop="author">
-                <a
-                  href="https://www.38north.org/author/daniel-r-depetris/"
-                  title="Posts by 38 North"
-                  className="author url fn"
-                >
-                  38 North
-                </a>{' '}
-              </div>
+              <div className="flex">
+                <div class="article__authors" itemprop="author">
+                  <a
+                    href="https://www.38north.org/author/peter-makowsky/"
+                    title="Posts by Peter Makowsky"
+                    class="author url fn"
+                    rel="author"
+                  >
+                    Peter Makowsky
+                  </a>
+                  ,{' '}
+                  <a
+                    href="https://www.38north.org/author/jack-liu/"
+                    title="Posts by Jack Liu"
+                    class="author url fn"
+                    rel="author"
+                  >
+                    Jack Liu
+                  </a>{' '}
+                  and{' '}
+                  <a
+                    href="https://www.38north.org/author/olli-heinonen/"
+                    title="Posts by Olli Heinonen"
+                    class="author url fn"
+                    rel="author"
+                  >
+                    Olli Heinonen
+                  </a>{' '}
+                </div>
 
-              <div className="article__topics">
-                <span itemprop="about">
-                  <a
-                    href="https://www.38north.org/topics/foreign-affairs/"
-                    rel="category tag"
-                  >
-                    Foreign Affairs
-                  </a>
-                </span>
-                ,{' '}
-                <span itemprop="about">
-                  <a
-                    href="https://www.38north.org/topics/military-affairs/"
-                    rel="category tag"
-                  >
-                    Military Affairs
-                  </a>
-                </span>{' '}
+                <div class="article__topics">
+                  <span itemprop="about">
+                    <a
+                      href="https://www.38north.org/topics/satellite-analysis/"
+                      rel="category tag"
+                    >
+                      Satellite Imagery
+                    </a>
+                  </span>
+                  ,{' '}
+                  <span itemprop="about">
+                    <a
+                      href="https://www.38north.org/topics/wmd/"
+                      rel="category tag"
+                    >
+                      WMD
+                    </a>
+                  </span>{' '}
+                </div>
               </div>
+              <div className="mr-[100px] ml-[130px]">
+                Commercial satellite imagery of the Yongbyon Nuclear Scientific
+                Research Center indicates that expansion and refurbishment work
+                continues throughout the site, reinforcing the notion that Kim
+                Jong Un’s call “to expand the production of weapon-grade
+                materials needed for an ‘exponential’ increase in the country’s
+                arsenal” was not an idle request.
+              </div>
+            </article>
+            <div className="flex justify-center items-center mr-24 img-item">
+              <img src={img2} className="w-72" alt="" />
             </div>
-          </article>
-          <article
-            className="article article--compact ajax-item"
-            itemscope=""
-            itemtype="http://schema.org/Article"
-          >
-            <div className="flex">
-              <div className="article__date">
-                <time datetime="2023-07-14">Jan 25 </time>
+          </div>
+          <div className="flex">
+            <article
+              className="article article--compact ajax-item w-4/5"
+              itemscope=""
+              itemtype="http://schema.org/Article"
+            >
+              <div className="flex">
+                <div className="article__date">
+                  <time datetime="2023-07-14">Apr 01 </time>
+                </div>
+                <div className="article__title" itemprop="name">
+                  <a
+                    href="https://www.38north.org/2023/04/yongbyon-nuclear-research-center-growing-activity-at-the-experimental-light-water-reactor/"
+                    title="Article: Growing Activity at North Korea’s Experimental Light Water Reactor"
+                    class="article__link"
+                    itemprop="url"
+                  >
+                    Growing Activity at North Korea’s Experimental Light Water
+                    Reactor{' '}
+                  </a>
+                </div>
               </div>
-              <div className="article__title" itemprop="name">
-                <a
-                  href="https://www.38north.org/2010/05/sanctions-an-important-component-of-u-s-north-korea-policy/"
-                  title="Article: Sanctions: An Important Component of U.S. North Korea Policy"
-                  class="article__link"
-                  itemprop="url"
-                >
-                  Sanctions: An Important Component of U.S. North Korea Policy{' '}
-                </a>
-              </div>
-            </div>
-            <div className="flex">
-              <div className="article__authors" itemprop="author">
-                <a
-                  href="https://www.38north.org/author/leon-v-sigal/"
-                  title="Posts by Leon V. Sigal"
-                  class="author url fn"
-                  rel="author"
-                >
-                  Leon V. Sigal
-                </a>
-              </div>
+              <div className="flex">
+                <div class="article__authors" itemprop="author">
+                  <a
+                    href="https://www.38north.org/author/peter-makowsky/"
+                    title="Posts by Peter Makowsky"
+                    class="author url fn"
+                    rel="author"
+                  >
+                    Peter Makowsky
+                  </a>{' '}
+                  and{' '}
+                  <a
+                    href="https://www.38north.org/author/jack-liu/"
+                    title="Posts by Jack Liu"
+                    class="author url fn"
+                    rel="author"
+                  >
+                    Jack Liu
+                  </a>{' '}
+                </div>
 
-              <div className="article__topics">
-                <span itemprop="about">
-                  <a
-                    href="https://www.38north.org/topics/foreign-affairs/"
-                    rel="category tag"
-                  >
-                    Foreign Affairs
-                  </a>
-                </span>
+                <div class="article__topics">
+                  <span itemprop="about">
+                    <a
+                      href="https://www.38north.org/topics/satellite-analysis/"
+                      rel="category tag"
+                    >
+                      Satellite Imagery
+                    </a>
+                  </span>
+                  ,{' '}
+                  <span itemprop="about">
+                    <a
+                      href="https://www.38north.org/topics/wmd/"
+                      rel="category tag"
+                    >
+                      WMD
+                    </a>
+                  </span>{' '}
+                </div>
               </div>
+              <div className="mr-[100px] ml-[130px]">
+                Recent commercial satellite imagery of North Korea’s Yongbyon
+                Nuclear Scientific Research Center indicates a high level of
+                activity around the complex. The 5 MWe Reactor continues to
+                operate, and construction has started on an additional support
+                building around the Experimental Light Water Reactor (ELWR).
+                Furthermore, water discharges have been detected that could be
+                associated with testing of the ELWR’s cooling system. This is
+                not the first time water discharges have been observed coming
+                from the ELWR over the past few years but may indicate the
+                reactor is nearing completion.
+              </div>
+            </article>
+            <div className="flex justify-center items-center mr-24 img-item">
+              <img src={img3} className="w-72" alt="" />
             </div>
-          </article>
+          </div>
+
           <div className="flex justify-between mt-6">
             <div className="article__topics">
               <span className="text-gray-700 my-4 underline">View All</span>{' '}

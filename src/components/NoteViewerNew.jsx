@@ -3,9 +3,15 @@ import React, { useRef } from 'react';
 
 const NoteViewerNew = () => {
   const editorRef = useRef(null);
+  const log = () => {
+    if (editorRef.current) {
+      console.log(editorRef.current.getContent());
+    }
+  };
   return (
     <div>
       <Editor
+        apiKey="vm845uqtrdnvn6en1bganv4pc0xisu5rum30g34d4nna7n21"
         onInit={(evt, editor) => (editorRef.current = editor)}
         initialValue=""
         init={{
@@ -25,6 +31,7 @@ const NoteViewerNew = () => {
             'body { font-family:Helvetica,Arial,sans-serif; font-size:14px }',
         }}
       />
+      <button onClick={log}>Log editor content</button>
     </div>
   );
 };

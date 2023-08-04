@@ -26,6 +26,10 @@ code {
   padding: 40px 0 40px 0px;
 }
 
+.img-item {
+  border-bottom: 1px solid #555;
+}
+
 .article__topics a {
   color: #727171;
   text-transform: uppercase;
@@ -48,14 +52,38 @@ code {
 }
 
 .article__authors {
-  margin-left: 115px;
+  margin-left: 130px;
   margin-right: 10px;
   font-size: 20px;
   font-weight: 600;
-  color: rgb(244, 237, 237);
+  color: rgb(241 173 173);
 }
 
 .article__topics {
   font-size: 20px;
   font-weight: 600;
+}
+
+.loader {
+	border-top-color: #3498db;
+	-webkit-animation: spinner 1.5s linear infinite;
+	animation: spinner 1.5s linear infinite;
+}
+
+@-webkit-keyframes spinner {
+	0% {
+		-webkit-transform: rotate(0deg);
+	}
+	100% {
+		-webkit-transform: rotate(360deg);
+	}
+}
+
+@keyframes spinner {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
 }
