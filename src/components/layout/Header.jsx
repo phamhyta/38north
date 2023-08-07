@@ -1,4 +1,5 @@
 import './Header.css';
+import pdf from './../../images/file1.pdf';
 const Header = () => {
   const pathname = window.location.pathname;
   console.log(pathname);
@@ -16,7 +17,7 @@ const Header = () => {
             <a href="/" className="sc-fzqKxP hLgAzU">
               Request More
             </a>
-            <a className="sc-fzonZV iDiBaT" href="/partner">
+            <a className="sc-fzonZV iDiBaT" href={pdf} download>
               Become a Member
             </a>
             <a className="sc-fzonZV iDiBaT" href="/howto">
