@@ -2,6 +2,12 @@ import React from 'react';
 import img1 from '../images/img1.png';
 import img2 from '../images/img2.png';
 import img3 from '../images/img3.png';
+import img11 from '../images/img11.png';
+import img21 from '../images/img21.png';
+import img31 from '../images/img31.png';
+import img4 from '../images/img4.png';
+import img5 from '../images/img5.png';
+import img6 from '../images/img6.png';
 
 const HomePage = () => {
   return (
@@ -161,6 +167,18 @@ const HomePage = () => {
               business network between Clients and Providers.
             </p>
           </div>
+        </div>
+      </div>
+      <div className='px-2'>
+        <div className='flex justify-between mt-6'>
+          <div><img src={img11} alt="" /></div>
+          <div><img src={img21} alt="" /></div>
+          <div><img src={img31} alt="" /></div>
+        </div>
+        <div className='flex justify-between my-4'>
+          <div><img src={img4} alt="" /></div>
+          <div><img src={img5} alt="" /></div>
+          <div><img src={img6} alt="" /></div>
         </div>
       </div>
       <div className="px-20 py-10 bg-black text-white">
