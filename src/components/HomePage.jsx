@@ -176,18 +176,18 @@ const HomePage = () => {
             <div className="w-28 h-2 bg-orange-500 mt-6"></div>
           </div>
         </h1>
-        <div className="flex justify-between mt-6">
-          <div>
+        <div className="flex justify-between items-end mt-6">
+          <div className='mr-12'>
             <img src={img11} alt="" />
           </div>
-          <div>
+          <div className='mr-12'>
             <img src={img21} alt="" />
           </div>
           <div>
             <img src={img31} alt="" />
           </div>
         </div>
-        <div className="flex justify-between my-4">
+        <div className="flex justify-between mb-4 mt-8">
           <div>
             <img src={img4} alt="" />
           </div>
