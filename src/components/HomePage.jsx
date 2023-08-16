@@ -169,16 +169,34 @@ const HomePage = () => {
           </div>
         </div>
       </div>
-      <div className='px-2'>
-        <div className='flex justify-between mt-6'>
-          <div><img src={img11} alt="" /></div>
-          <div><img src={img21} alt="" /></div>
-          <div><img src={img31} alt="" /></div>
+      <div className="px-2">
+        <h1 className="text-5xl font-bold mt-12 text-center">
+          STATISTICS IN SPACE
+          <div className='w-full flex justify-center'>
+            <div className="w-28 h-2 bg-orange-500 mt-6"></div>
+          </div>
+        </h1>
+        <div className="flex justify-between mt-6">
+          <div>
+            <img src={img11} alt="" />
+          </div>
+          <div>
+            <img src={img21} alt="" />
+          </div>
+          <div>
+            <img src={img31} alt="" />
+          </div>
         </div>
-        <div className='flex justify-between my-4'>
-          <div><img src={img4} alt="" /></div>
-          <div><img src={img5} alt="" /></div>
-          <div><img src={img6} alt="" /></div>
+        <div className="flex justify-between my-4">
+          <div>
+            <img src={img4} alt="" />
+          </div>
+          <div>
+            <img src={img5} alt="" />
+          </div>
+          <div>
+            <img src={img6} alt="" />
+          </div>
         </div>
       </div>
       <div className="px-20 py-10 bg-black text-white">
