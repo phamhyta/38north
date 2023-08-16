@@ -169,7 +169,7 @@ const HomePage = () => {
           </div>
         </div>
       </div>
-      <div className="px-8 mb-16">
+      <div className="px-20 mb-16">
         <h1 className="text-2xl font-bold mt-12">
           STATISTICS IN SPACE
             <div className="w-20 h-2 bg-orange-500 mt-6"></div>
