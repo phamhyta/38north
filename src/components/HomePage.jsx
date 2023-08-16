@@ -169,12 +169,10 @@ const HomePage = () => {
           </div>
         </div>
       </div>
-      <div className="px-2">
-        <h1 className="text-5xl font-bold mt-12 text-center">
+      <div className="px-8 mb-16">
+        <h1 className="text-2xl font-bold mt-12">
           STATISTICS IN SPACE
-          <div className='w-full flex justify-center'>
-            <div className="w-28 h-2 bg-orange-500 mt-6"></div>
-          </div>
+            <div className="w-20 h-2 bg-orange-500 mt-6"></div>
         </h1>
         <div className="flex justify-between items-end mt-6">
           <div className='mr-12'>
